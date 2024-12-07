@@ -21,7 +21,7 @@ app.use(cors({
 const SS = http.createServer(app);
 SS.listen(1000,()=>console.log('Serve is running on port 1000'));
 
-const io = new Server(SS,{cors:{origin:'http://localhost:5173', credentials:true, methods:['PUT','GET']}});
+const io = new Server(SS,{cors:{origin:true, credentials:true, methods:['PUT','GET']}});
 
 io.on("connection",(sock)=>{console.log("Socket ID : ",sock.id)
 
