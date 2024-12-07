@@ -7,7 +7,7 @@ import Chatbox from './components/Chatbox'
 
 function App() {
 
-  const socket = io.connect("http://localhost:1000")
+  const socket = io.connect("https://chatapp-1-tl6x.onrender.com")
   
   return (
     <>
