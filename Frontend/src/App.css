@@ -1,0 +1,12 @@
+body{
+  background-color: rgb(15, 14, 14);
+  color: wheat;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+#HH::-webkit-scrollbar{
+  display: none;
+}
